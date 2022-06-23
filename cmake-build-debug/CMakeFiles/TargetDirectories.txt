@@ -1,0 +1,5 @@
+/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/sdl2/CMakeFiles/rebuild_cache.dir
+/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/sdl2/CMakeFiles/edit_cache.dir
+/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/sdl2/CMakeFiles/sdl2-demo.dir

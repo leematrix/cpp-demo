@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="render"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\render\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="render">
+				<Option output="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/render" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lzx/WorkSpace/Project/filament-v1.23.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 render"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="render/fast">
+				<Option output="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/render" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lzx/WorkSpace/Project/filament-v1.23.2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 render/fast"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/cmake-build-debug/render/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/render/main.cpp">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/lzx/WorkSpace/Project/leemartix/cpp-demo/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\render\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
